@@ -1,0 +1,83 @@
+input {
+    width: 18em;
+    margin: 1.2em auto;
+    height:2.2em;
+  }
+  
+  h1 {
+    margin-bottom: 1em;
+  }
+  
+  button {
+    margin-top: 0.8em;
+    width: 18em;
+  }
+
+
+
+h1 {
+  margin-bottom: 1em;
+}
+
+button {
+  margin-top: 0.8em;
+  width: 18em;
+  
+}
+
+
+
+.radio-group{
+  display:inline;
+}
+
+#select-1672186988770 {
+  width:18em;
+  margin:1em 0;
+}
+
+#select-1672187521433{
+  width:18em;
+  margin:1em 0;
+}
+
+#date-1672210634855{
+  width:18em;
+  margin-left:-0.01em;
+}
+
+#button1{
+  width:10em;
+}
+
+
+form{
+  width:26em;
+}
+
+#text-1672210761141{
+  width:18em;
+  margin-left:-0.01em;
+}
+
+#text-1672210872324{
+  width:18em;
+  margin-left:-0.01em;
+}
+
+#text-1672210921568{
+  width:18em;
+  margin-left:-0.01em;
+}
+
+#text-1672210970933{
+  width:18em;
+  margin-left:-0.01em;
+}
+
+#text-1672212277435{
+  width:18em;
+  margin-left:-0.01em;
+}
+
+
