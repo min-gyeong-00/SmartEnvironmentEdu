@@ -4,7 +4,7 @@ import About1 from './Image/About1.png';
 import About2 from './Image/About2.jpg';
 import About3 from './Image/About3.jpg';
 import About4 from './Image/About4.jpeg';
-import About5 from './Image/About5.jpeg';
+
 
 function Team(){
     return(
@@ -94,25 +94,7 @@ function Team(){
         <img src={About4} width="100%"/>
         </div>
       </div>
-      <hr className="featurette-divider"></hr>
-      <div className="row featurette" style={{ padding: '2em' }}>
-        <div className="col-md-9 order-md-2">
-          <h3 className="featurette-heading fw-normal lh-1">
-          외부참여 연구원 | 강서영<span className="text-muted"></span>
-          </h3>
-          <ul className="lead">
-            <li>부산고등학교</li>
-            <li>석사(지구과학과)
-            </li>
-            <li>지구과학교육</li>
-            <li>ksy85190@naver.com</li>
-          
-          </ul>
-        </div>
-        <div className="col-md-3 order-md-1">
-        <img src={About5} width="100%"/>
-        </div>
-      </div>
+
       
      
       </div>
@@ -120,3 +102,4 @@ function Team(){
     );
 }
 export default Team;
+

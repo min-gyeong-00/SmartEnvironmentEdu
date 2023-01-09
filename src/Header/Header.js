@@ -162,7 +162,7 @@ function Header() {
                   Education Resources
                 </NavLink>
                 <NavLink className={'nav-link'} to="/training">
-                  Training and implementation
+                  Training and implementationg
                 </NavLink>
               </NavDropdown>
               <NavDropdown
