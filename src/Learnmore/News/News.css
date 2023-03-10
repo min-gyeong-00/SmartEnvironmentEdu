@@ -8,7 +8,6 @@
 
 #photo{
     text-align:center;
-   
     background-color: rgb(232, 232, 232);
 }
 
@@ -22,8 +21,6 @@ iframe{
 }
 .photo{
     height:50%;
-    
-
 }
 
 .lead2>li{

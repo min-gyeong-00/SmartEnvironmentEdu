@@ -39,11 +39,11 @@ function News(){
             </div>
 
            <div className="container-fluid" id="photo">      
-                <div className="photo">             
-                    <img className="col-md-2 " src={news1} width="30%"/>
-                    <img className="col-md-2 "src={news2} width="30%"/>
-                    <img className="col-md-2 "src={news3} width="30%"/>
-                    <img className="col-md-2 "src={news4} width="30%"/>
+                <div className="container photo">             
+                    <img className="col-md-2 " src={news1} width="50%"/>
+                    <img className="col-md-2 "src={news2} width="50%"/>
+                    <img className="col-md-2 "src={news3} width="50%"/>
+                    <img className="col-md-2 "src={news4} width="50%"/>
                 </div>
           </div>
 

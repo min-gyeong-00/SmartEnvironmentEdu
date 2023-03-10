@@ -3,7 +3,9 @@ import home1 from './Image/home1.jpg';
 import home2 from './Image/home2.jpg';
 import home3 from './Image/home3.jpg';
 import home4 from './Image/home4.jpg';
-
+import button1 from './Image/button.jpg';
+import button2 from './Image/button2.jpg';
+import button3 from './Image/button3.jpg';
 
 function ABC() {
   return (
@@ -11,25 +13,11 @@ function ABC() {
     <div className="container">
       <div className="row" style={{ padding: '2em' }}>
         <div className="col-lg-4">
-          <svg
-            className="bd-placeholder-img rounded-circle "
-            width="140"
-            height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 140x140"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777"></rect>
-            <text x="50%" y="50%" fill="#777" dy=".3em">
-              140x140
-            </text>
-          </svg>
+          <img src={button1} width="70%"/>
+    
 
-          <h4 className="fw-normal">Information1</h4>
-          <p>SEEd 프로그램 설명란입니다</p>
+          <h4 className="fw-normal">환경 교육용 측정기기<br/> SEEd 2.0이란</h4>
+          <p>웹서버와 연결된 loT 환경 측정 기기로 <br/>클라우드 기반의 데이터 활용 환경 교육을 구현합니다.</p>
           <p>
             <a className="btn btn-secondary" href="#">
               View details »
@@ -37,25 +25,11 @@ function ABC() {
           </p>
         </div>
         <div className="col-lg-4">
-          <svg
-            className="bd-placeholder-img rounded-circle"
-            width="140"
-            height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 140x140"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777"></rect>
-            <text x="50%" y="50%" fill="#777" dy=".3em">
-              140x140
-            </text>
-          </svg>
+        <img src={button2} width="70%"/>
+        
 
-          <h4 className="fw-normal">Information2</h4>
-          <p>SEEd 프로그램 설명란입니다</p>
+          <h4 className="fw-normal">환경교육 데이터<br/>플랫폼이란</h4>
+          <p>환경 데이터를 기반으로 하여 체험형,탐구형 교육의<br/>다양한 경험을 제공하는 환경 교육 시스템입니다.</p>
           <p>
             <a className="btn btn-secondary" href="#">
               View details »
@@ -63,25 +37,10 @@ function ABC() {
           </p>
         </div>
         <div className=" col-lg-4">
-          <svg
-            className="bd-placeholder-img rounded-circle"
-            width="140"
-            height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 140x140"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777"></rect>
-            <text x="50%" y="50%" fill="#777" dy=".3em">
-              140x140
-            </text>
-          </svg>
+        <img src={button3} width="70%"/>
 
-          <h4 className="fw-normal">Information3</h4>
-          <p>SEEd 프로그램 설명란입니다</p>
+          <h4 className="fw-normal">환경교육 데이터 플랫폼 <br/>E-class란</h4>
+          <p>클라우드 기반의 환경 데이터베이스를 활용한<br/>다양한 환경 교육 프로그램을 제공합니다.</p>
           <p>
             <a className="btn btn-secondary" href="#">
               View details »

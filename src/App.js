@@ -24,6 +24,8 @@ import ContactUs from './Contact/ContactUs'
 import Resource from './Learnmore/Resource/Resource';
 import Tboard from './Learnmore/Train/Tborad';
 
+
+
 function App() {
   return (
     <>
@@ -81,9 +83,10 @@ function App() {
         <Route path="/news_reserch" exact={true} element={<News/>} />
         <Route path="/resource" exact={true} element={<Resource/>} />
         <Route path="/tboard" exact={true} element={<Tboard/>} />
-
+       
         {/*ContactUs*/}
         <Route path="/contactus" exact={true} element={<ContactUs/>} />
+       
       </Routes>
       <Footer />
     </>

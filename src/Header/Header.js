@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 import { decodeToken, isExpired } from 'react-jwt';
 import { customAxios } from '../Common/CustomAxios';
 import { RESPONSE_BAD_REQ, RESPONSE_OK } from '../Common/Response';
+import logo from './logo.png';
 
 function Header() {
   const [username, setUsername] = useState('');
@@ -73,7 +74,7 @@ function Header() {
           >
             <Nav>
               <NavLink className="nav-link" to="/" style={{ color: 'black' }}>
-                <h4>test</h4>
+                <h5 id="logo">환경 교육 <br/>데이터 플랫폼</h5>
               </NavLink>
             </Nav>
             <Nav>
