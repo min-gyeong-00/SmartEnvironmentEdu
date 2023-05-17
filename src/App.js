@@ -20,10 +20,9 @@ import Team from './About/Team/Team';
 import What from './About/What/What';
 import Training from './Learnmore/Train/Training';
 import News from './Learnmore/News/News';
-import ContactUs from './Contact/ContactUs'
+import ContactUs from './Contact/ContactUs';
 import Resource from './Learnmore/Resource/Resource';
 import Tboard from './Learnmore/Train/Tborad';
-
 
 
 function App() {
